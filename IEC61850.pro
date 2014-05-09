@@ -705,7 +705,15 @@ HEADERS += iec61850.h\
         Part7/LogicalNodes/LNGroupL/LPHD.h
 
 unix {
-    target.path   = /usr/lib/IEC6850
+    target.path   = /usr/lib/IEC61850
+    INSTALLS      += target
+
+    headers.path  = /usr/include/IEC61850
+    headers.files += $$HEADERS
+    INSTALLS      += headers
+}
+macx {
+    target.path   = /usr/lib/IEC61850
     INSTALLS      += target
 
     headers.path  = /usr/include/IEC61850

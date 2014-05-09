@@ -19,15 +19,20 @@ NamedIEC61850Object::~NamedIEC61850Object(){
 }
 
 
-
-
+/**
+ * @brief NamedIEC61850Object::setName
+ * @param P_VISIBLE_STRING32 name The name of the object
+ */
+void NamedIEC61850Object::setName(P_VISIBLE_STRING32 name) {
+    objectName.setObjectName(name);
+}
 
 /**
  * Returns object name.
  */
 ObjectName NamedIEC61850Object::getName(){
 
-	//return NULL;
+    return objectName;
 }
 
 

@@ -8,11 +8,15 @@
 #if !defined(EA_C268B3A1_BCB3_48f3_A7C2_17FE1DD587A7__INCLUDED_)
 #define EA_C268B3A1_BCB3_48f3_A7C2_17FE1DD587A7__INCLUDED_
 
+#include <QString>
+
 class P_VISIBLE_STRING255
 {
 
 public:
-	P_VISIBLE_STRING255();
+    QString value;
+
+    P_VISIBLE_STRING255();
 	virtual ~P_VISIBLE_STRING255();
 
 };

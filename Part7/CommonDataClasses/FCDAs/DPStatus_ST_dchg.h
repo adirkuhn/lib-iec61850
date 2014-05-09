@@ -17,6 +17,8 @@ class DPStatus_ST_dchg : public FCDA_ST_dchg
 public:
 	DPStatus_ST_dchg();
 	virtual ~DPStatus_ST_dchg();
+    void setAttr(DPStatus attr);
+    DPStatus getAttr();
 
 private:
 	DPStatus attr;
