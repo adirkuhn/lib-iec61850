@@ -10,6 +10,7 @@
 
 #include "ObjectName.h"
 #include "P_VISIBLE_STRING255.h"
+#include "P_VISIBLE_STRING32.h"
 #include "HierarchyIEC61850Object.h"
 
 /**
@@ -17,12 +18,15 @@
  */
 class NamedIEC61850Object : public HierarchyIEC61850Object
 {
+private:
+    ObjectName objectName;
 
 public:
-	NamedIEC61850Object();
+    NamedIEC61850Object();
 	virtual ~NamedIEC61850Object();
 
-	ObjectName getName();
+    ObjectName getName();
+    void setName(P_VISIBLE_STRING32 name);
 	virtual void getObjectRef();
 	P_VISIBLE_STRING255 getRef();
 

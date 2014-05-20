@@ -17,3 +17,13 @@ DPStatus_ST_dchg::DPStatus_ST_dchg(){
 DPStatus_ST_dchg::~DPStatus_ST_dchg(){
 
 }
+
+void DPStatus_ST_dchg::setAttr(DPStatus attr)
+{
+    this->attr = attr;
+}
+
+DPStatus DPStatus_ST_dchg::getAttr()
+{
+    return this->attr;
+}

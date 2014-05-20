@@ -8,11 +8,17 @@
 #if !defined(EA_364DF3CD_91C7_4ad1_8A44_6CD67531402C__INCLUDED_)
 #define EA_364DF3CD_91C7_4ad1_8A44_6CD67531402C__INCLUDED_
 
+#include <QString>
+
 class P_VISIBLE_STRING32
 {
 
 public:
-	P_VISIBLE_STRING32();
+    QString value;
+
+    P_VISIBLE_STRING32();
+    void setValue(QString);
+    QString getValue();
 	virtual ~P_VISIBLE_STRING32();
 
 };

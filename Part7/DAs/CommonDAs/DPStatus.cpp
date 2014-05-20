@@ -12,8 +12,16 @@ DPStatus::DPStatus(){
 
 }
 
-
-
 DPStatus::~DPStatus(){
 
+}
+
+void DPStatus::setVal(DPStatusKind val)
+{
+    this->val = val;
+}
+
+DPStatusKind DPStatus::getVal()
+{
+    return this->val;
 }

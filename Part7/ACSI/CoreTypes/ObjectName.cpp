@@ -8,8 +8,17 @@
 #include "ObjectName.h"
 
 
-ObjectName::ObjectName(){
+ObjectName::ObjectName() {
 
+}
+
+void ObjectName::setObjectName(P_VISIBLE_STRING32 name) {
+    this->name = name;
+}
+
+P_VISIBLE_STRING32 ObjectName::getObjectName() {
+
+    return this->name;
 }
 
 

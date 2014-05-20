@@ -7,12 +7,21 @@
 
 #include "P_VISIBLE_STRING32.h"
 
-
-P_VISIBLE_STRING32::P_VISIBLE_STRING32(){
+/**
+ * TODO: LIMITAR A QUANTIDADE DE CARACTERES ATE 32.
+ */
+P_VISIBLE_STRING32::P_VISIBLE_STRING32() {
 
 }
 
+void P_VISIBLE_STRING32::setValue(QString value) {
+    this->value = value;
+}
 
+QString P_VISIBLE_STRING32::getValue() {
+
+    return this->value;
+}
 
 P_VISIBLE_STRING32::~P_VISIBLE_STRING32(){
 

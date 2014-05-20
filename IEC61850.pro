@@ -706,6 +706,16 @@ HEADERS += iec61850.h\
 
 unix {
     target.path   = /usr/lib/IEC61850
+
+    INSTALLS      += target
+
+    headers.path  = /usr/include/IEC61850
+    headers.files += $$HEADERS
+    INSTALLS      += headers
+}
+macx {
+    target.path   = /usr/lib/IEC61850
+
     INSTALLS      += target
 
     headers.path  = /usr/include/IEC61850

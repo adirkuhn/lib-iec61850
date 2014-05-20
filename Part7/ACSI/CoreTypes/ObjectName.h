@@ -10,6 +10,7 @@
 
 #include "P_VISIBLE_STRING32.h"
 
+
 /**
  * part 7-2, sec. 5
  * Value in this type shall specify a unique instance name within the given parent.
@@ -23,11 +24,13 @@ class ObjectName
 {
 
 public:
-	ObjectName();
+    P_VISIBLE_STRING32 name;
+
+    ObjectName();
+    void setObjectName(P_VISIBLE_STRING32 name);
+    P_VISIBLE_STRING32 getObjectName();
 	virtual ~ObjectName();
 
-private:
-	P_VISIBLE_STRING32 name;
 
 };
 #endif // !defined(EA_590A2CA8_4808_40cb_8CB6_0349EB778973__INCLUDED_)

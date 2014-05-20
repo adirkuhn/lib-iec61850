@@ -8,13 +8,13 @@
 #include "FILE.h"
 
 
-FILE::FILE(){
+IECFILE::IECFILE(){
 
 }
 
 
 
-FILE::~FILE(){
+IECFILE::~IECFILE(){
 
 }
 
@@ -34,7 +34,7 @@ FILE::~FILE(){
 /**
  * Returns reference as object. 
  */
-FILEReference FILE::getFileRef(){
+FILEReference IECFILE::getFileRef(){
 
 	//return NULL;
 }

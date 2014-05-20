@@ -24,12 +24,12 @@
  * interpretation of the contents is by mutual agreement of the systems involved.
  * <b>Modelling note</b>: Services are defined in AcsiFILE interface.
  */
-class FILE : public HierarchyIEC61850Object
+class IECFILE : public HierarchyIEC61850Object
 {
 
 public:
-	FILE();
-	virtual ~FILE();
+    IECFILE();
+    virtual ~IECFILE();
 
     //SERVER getServer();
 	FILEReference getFileRef();

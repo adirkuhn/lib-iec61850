@@ -20,6 +20,8 @@ class DPStatus : public PrimitiveDA
 public:
 	DPStatus();
 	virtual ~DPStatus();
+    void setVal(DPStatusKind val);
+    DPStatusKind getVal();
 
 private:
 	DPStatusKind val;
