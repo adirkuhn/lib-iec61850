@@ -18,6 +18,8 @@ class P_INT8
 public:
 	P_INT8();
 	virtual ~P_INT8();
+    unsigned short int val;
+
 
 };
 #endif // !defined(EA_7B80C6AB_45EC_4803_A41F_B31538B380AE__INCLUDED_)

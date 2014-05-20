@@ -17,6 +17,9 @@ class INT8 : public PrimitiveDA
 public:
 	INT8();
 	virtual ~INT8();
+    P_INT8 getVal();
+    void setVal(P_INT8 val);
+
 
 private:
 	P_INT8 val;

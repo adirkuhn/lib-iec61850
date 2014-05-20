@@ -17,3 +17,11 @@ ValWithTrans_ST_dchg::ValWithTrans_ST_dchg(){
 ValWithTrans_ST_dchg::~ValWithTrans_ST_dchg(){
 
 }
+
+ValWithTrans ValWithTrans_ST_dchg::getAttr(){
+    return attr;
+}
+
+void ValWithTrans_ST_dchg::setAttr(ValWithTrans attr){
+    this->attr = attr;
+}

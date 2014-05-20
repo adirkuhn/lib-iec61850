@@ -17,6 +17,8 @@ class ValWithTrans_ST_dchg : public FCDA_ST_dchg
 public:
 	ValWithTrans_ST_dchg();
 	virtual ~ValWithTrans_ST_dchg();
+    void setAttr(ValWithTrans attr);
+    ValWithTrans getAttr();
 
 private:
 	ValWithTrans attr;

@@ -17,3 +17,11 @@ INT8::INT8(){
 INT8::~INT8(){
 
 }
+
+P_INT8 INT8::getVal(){
+    return this->val;
+}
+
+void INT8::setVal(P_INT8 val){
+    this->val=val;
+}
