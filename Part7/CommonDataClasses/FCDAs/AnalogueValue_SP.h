@@ -17,6 +17,8 @@ class AnalogueValue_SP : public FCDA_SP
 public:
 	AnalogueValue_SP();
 	virtual ~AnalogueValue_SP();
+    void setAttr(AnalogueValue attr);
+    AnalogueValue getAttr();
 
 private:
 	AnalogueValue attr;

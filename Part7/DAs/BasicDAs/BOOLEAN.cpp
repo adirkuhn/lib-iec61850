@@ -12,8 +12,14 @@ BOOLEAN::BOOLEAN(){
 
 }
 
-
-
 BOOLEAN::~BOOLEAN(){
 
+}
+
+void BOOLEAN::setVal(P_BOOLEAN val) {
+    this->val = val;
+}
+
+P_BOOLEAN BOOLEAN::getVal() {
+    return this->val;
 }

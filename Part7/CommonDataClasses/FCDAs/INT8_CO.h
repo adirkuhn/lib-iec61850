@@ -17,6 +17,8 @@ class INT8_CO : public FCDA_CO
 public:
 	INT8_CO();
 	virtual ~INT8_CO();
+    void setAttr(INT8 attr);
+    INT8 getAttr();
 
 private:
 	INT8 attr;

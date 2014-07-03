@@ -15,14 +15,15 @@ class INT8 : public PrimitiveDA
 {
 
 public:
+    P_INT8 val;
 	INT8();
 	virtual ~INT8();
     P_INT8 getVal();
     void setVal(P_INT8 val);
 
 
-private:
-	P_INT8 val;
+//private:
+    //P_INT8 val;
 
 };
 #endif // !defined(EA_8121401F_9076_4feb_AAFA_19E83FCCC2B1__INCLUDED_)

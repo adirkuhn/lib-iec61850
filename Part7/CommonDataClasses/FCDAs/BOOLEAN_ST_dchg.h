@@ -17,6 +17,8 @@ class BOOLEAN_ST_dchg : public FCDA_ST_dchg
 public:
 	BOOLEAN_ST_dchg();
 	virtual ~BOOLEAN_ST_dchg();
+    void setAttr(BOOLEAN attr);
+    BOOLEAN getAttr();
 
 private:
 	BOOLEAN attr;

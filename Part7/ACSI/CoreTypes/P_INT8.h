@@ -18,7 +18,7 @@ class P_INT8
 public:
 	P_INT8();
 	virtual ~P_INT8();
-    unsigned short int val;
+    int val;
 
 
 };

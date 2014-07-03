@@ -17,3 +17,11 @@ BOOLEAN_ST_dchg::BOOLEAN_ST_dchg(){
 BOOLEAN_ST_dchg::~BOOLEAN_ST_dchg(){
 
 }
+
+void BOOLEAN_ST_dchg::setAttr(BOOLEAN attr) {
+    this->attr = attr;
+}
+
+BOOLEAN BOOLEAN_ST_dchg::getAttr() {
+    return this->attr;
+}

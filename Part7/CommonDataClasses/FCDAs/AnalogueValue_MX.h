@@ -17,6 +17,8 @@ class AnalogueValue_MX : public FCDA_MX
 public:
 	AnalogueValue_MX();
 	virtual ~AnalogueValue_MX();
+    void setAttr(AnalogueValue attr);
+    AnalogueValue getAttr();
 
 private:
 	AnalogueValue attr;

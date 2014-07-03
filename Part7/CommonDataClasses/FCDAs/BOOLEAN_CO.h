@@ -17,6 +17,8 @@ class BOOLEAN_CO : public FCDA_CO
 public:
 	BOOLEAN_CO();
 	virtual ~BOOLEAN_CO();
+    void setAttr(BOOLEAN attr);
+    BOOLEAN getAttr();
 
 private:
 	BOOLEAN attr;

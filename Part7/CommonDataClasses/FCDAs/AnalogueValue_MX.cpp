@@ -17,3 +17,11 @@ AnalogueValue_MX::AnalogueValue_MX(){
 AnalogueValue_MX::~AnalogueValue_MX(){
 
 }
+
+void AnalogueValue_MX::setAttr(AnalogueValue attr) {
+    this->attr = attr;
+}
+
+AnalogueValue AnalogueValue_MX::getAttr() {
+    return this->attr;
+}

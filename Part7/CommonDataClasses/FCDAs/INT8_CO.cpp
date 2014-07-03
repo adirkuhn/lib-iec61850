@@ -17,3 +17,11 @@ INT8_CO::INT8_CO(){
 INT8_CO::~INT8_CO(){
 
 }
+
+void INT8_CO::setAttr(INT8 attr) {
+    this->attr = attr;
+}
+
+INT8 INT8_CO::getAttr() {
+    return this->attr;
+}

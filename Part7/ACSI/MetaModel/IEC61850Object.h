@@ -10,7 +10,6 @@
 
 class IEC61850Object
 {
-
 public:
 	IEC61850Object();
 	virtual ~IEC61850Object();

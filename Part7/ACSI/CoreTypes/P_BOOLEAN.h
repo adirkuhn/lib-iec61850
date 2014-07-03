@@ -14,10 +14,14 @@
  */
 class P_BOOLEAN
 {
+private:
+    bool val;
 
 public:
 	P_BOOLEAN();
 	virtual ~P_BOOLEAN();
+    void setVal(bool val);
+    bool getVal();
 
 };
 #endif // !defined(EA_968659F9_83FE_4c32_A47D_BA2E156DBFE1__INCLUDED_)

@@ -14,10 +14,14 @@
  */
 class P_INT32
 {
+private:
+    int val;
 
 public:
 	P_INT32();
 	virtual ~P_INT32();
+    void setVal(int val);
+    int getVal();
 
 };
 #endif // !defined(EA_87BCBE90_6D71_4cd3_A83A_1B0E90B161EE__INCLUDED_)

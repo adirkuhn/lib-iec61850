@@ -17,3 +17,4 @@ IEC61850Object::IEC61850Object(){
 IEC61850Object::~IEC61850Object(){
 
 }
+

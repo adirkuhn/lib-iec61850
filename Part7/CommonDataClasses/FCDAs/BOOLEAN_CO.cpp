@@ -12,8 +12,14 @@ BOOLEAN_CO::BOOLEAN_CO(){
 
 }
 
-
-
 BOOLEAN_CO::~BOOLEAN_CO(){
 
+}
+
+void BOOLEAN_CO::setAttr(BOOLEAN attr) {
+    this->attr = attr;
+}
+
+BOOLEAN BOOLEAN_CO::getAttr() {
+    return this->attr;
 }

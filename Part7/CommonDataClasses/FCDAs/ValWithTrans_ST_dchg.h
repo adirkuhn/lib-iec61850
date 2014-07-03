@@ -15,13 +15,14 @@ class ValWithTrans_ST_dchg : public FCDA_ST_dchg
 {
 
 public:
+    ValWithTrans attr;
 	ValWithTrans_ST_dchg();
 	virtual ~ValWithTrans_ST_dchg();
     void setAttr(ValWithTrans attr);
     ValWithTrans getAttr();
 
-private:
-	ValWithTrans attr;
+//private:
+    //ValWithTrans attr;
 
 };
 #endif // !defined(EA_3AB51ED0_13C9_4c25_B39B_319A7E1B526A__INCLUDED_)

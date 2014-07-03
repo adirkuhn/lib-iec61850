@@ -20,6 +20,8 @@ class BOOLEAN : public PrimitiveDA
 public:
 	BOOLEAN();
 	virtual ~BOOLEAN();
+    void setVal(P_BOOLEAN val);
+    P_BOOLEAN getVal();
 
 private:
 	P_BOOLEAN val;

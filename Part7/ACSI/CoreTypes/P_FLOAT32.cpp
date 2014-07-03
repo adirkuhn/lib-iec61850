@@ -17,3 +17,11 @@ P_FLOAT32::P_FLOAT32(){
 P_FLOAT32::~P_FLOAT32(){
 
 }
+
+void P_FLOAT32::setVal(float val) {
+    this->val = val;
+}
+
+float P_FLOAT32::getVal() {
+    return this->val;
+}

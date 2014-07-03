@@ -17,3 +17,11 @@ AnalogueValue_SP::AnalogueValue_SP(){
 AnalogueValue_SP::~AnalogueValue_SP(){
 
 }
+
+void AnalogueValue_SP::setAttr(AnalogueValue attr) {
+    this->attr = attr;
+}
+
+AnalogueValue AnalogueValue_SP::getAttr() {
+    return this->attr;
+}
