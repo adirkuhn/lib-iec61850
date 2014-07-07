@@ -47,7 +47,7 @@ LD SERVER::getLds(){
  * Returns all files within the server. List may be empty.
  * <b>Modelling note</b>: Corresponds to SERVER.File. 
  */
-FILE SERVER::getFiles(){
+IECFILE SERVER::getFiles(){
 
 	//return NULL;
 }
