@@ -40,7 +40,7 @@ public:
 
 	P_VISIBLE_STRING32 getName();
 	LD getLds();
-	FILE getFiles();
+    IECFILE getFiles();
 	IPAddress getSaps();
 	TPAA getTpaaClients();
 	MCAA getMcaaClients();
