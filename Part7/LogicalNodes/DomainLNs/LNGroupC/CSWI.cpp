@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////////
+//  CSWI.h
+//  Implementation of the Class CSWI
+//  Created on:      01-Oct-2014 2:52:20 PM
+//  Original author: adirkuhn
+///////////////////////////////////////////////////////////
+#include "CSWI.h"
+
+CSWI::CSWI()
+{
+}
+
+CSWI::~CSWI()
+{
+}

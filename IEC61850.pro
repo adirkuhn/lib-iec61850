@@ -361,7 +361,13 @@ SOURCES += iec61850.cpp \
         Part7/LogicalNodes/DomainLNs/LNGroupY/YPSH.cpp \
         Part7/LogicalNodes/DomainLNs/LNGroupY/YPTR.cpp \
         Part7/LogicalNodes/LNGroupL/LLN0.cpp \
-        Part7/LogicalNodes/LNGroupL/LPHD.cpp
+        Part7/LogicalNodes/LNGroupL/LPHD.cpp \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/GroupC.cpp \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CILO.cpp \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CALH.cpp \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CPOW.cpp \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CSWI.cpp \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CCGR.cpp
 
 HEADERS += iec61850.h\
         iec61850_global.h \
@@ -702,7 +708,13 @@ HEADERS += iec61850.h\
         Part7/LogicalNodes/DomainLNs/LNGroupY/YPSH.h \
         Part7/LogicalNodes/DomainLNs/LNGroupY/YPTR.h \
         Part7/LogicalNodes/LNGroupL/LLN0.h \
-        Part7/LogicalNodes/LNGroupL/LPHD.h
+        Part7/LogicalNodes/LNGroupL/LPHD.h \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/GroupC.h \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CILO.h \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CALH.h \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CPOW.h \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CSWI.h \
+    Part7/LogicalNodes/DomainLNs/LNGroupC/CCGR.h
 
 unix {
     target.path   = /usr/lib/IEC61850

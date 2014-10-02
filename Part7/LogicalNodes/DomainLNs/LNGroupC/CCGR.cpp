@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////////
+//  CCGR.h
+//  Implementation of the Class CCGR
+//  Created on:      01-Oct-2014 2:52:20 PM
+//  Original author: adirkuhn
+///////////////////////////////////////////////////////////
+#include "CCGR.h"
+
+CCGR::CCGR()
+{
+}
+
+CCGR::~CCGR()
+{
+}

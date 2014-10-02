@@ -1,0 +1,15 @@
+///////////////////////////////////////////////////////////
+//  CPOW.h
+//  Implementation of the Class CPOW
+//  Created on:      01-Oct-2014 2:52:20 PM
+//  Original author: adirkuhn
+///////////////////////////////////////////////////////////
+#include "CPOW.h"
+
+CPOW::CPOW()
+{
+}
+
+CPOW::~CPOW()
+{
+}
