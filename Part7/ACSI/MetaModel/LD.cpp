@@ -9,12 +9,15 @@
 
 
 LD::LD(){
+    this->m_LLN0 = new LLN0();
 
 }
 
 
 
 LD::~LD(){
+
+    delete this->m_LLN0;
 
 }
 
@@ -55,9 +58,12 @@ LNPHD LD::getLphd(){
  * Returns logical device logical node contained within the logical device. Must
  * not be null. 
  */
-LLN0 LD::getLn0(){
+LLN0 *LD::getLLn0(){
 
-	//return NULL;
+
+    //modificado para tentar acessar o LLN0
+
+    return this->m_LLN0;
 }
 
 

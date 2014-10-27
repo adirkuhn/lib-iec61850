@@ -39,11 +39,12 @@ public:
 	LNPHD *m_LNPHD;
 	LNDOM *m_LNDOM;
 	LN0 *m_LN0;
+    LLN0 *m_LLN0;
 
     //SERVER getServer();
 	LDReference getLdRef();
 	LNPHD getLphd();
-	LLN0 getLn0();
+    LLN0 *getLLn0();
 	LNDOM getDomainLns();
 
 };

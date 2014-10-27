@@ -66,5 +66,7 @@ public:
 	 */
 	SPS OilFil;
 
+    SPS LTCCycAlm;
+    //incluido pela equipe de desenvolvimento SINUV, atributo para definir um ciclo incompleto de mudança de tap, sem a mudança do comutador
 };
 #endif // !defined(EA_DE439099_62A3_485a_9013_84703C6BC678__INCLUDED_)
