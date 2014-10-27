@@ -20,8 +20,9 @@ public:
     void setAttr(BOOLEAN attr);
     BOOLEAN getAttr();
 
+
 private:
-	BOOLEAN attr;
+     BOOLEAN attr;
 
 };
 #endif // !defined(EA_DD4B3C1D_9C53_4d33_8851_144450AB6004__INCLUDED_)
